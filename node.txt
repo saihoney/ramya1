@@ -1,0 +1,4 @@
+java -jar selenium-server-standalone-2.45.0.jar -role webdriver 
+-hub http://192.168.1.61:4444/grid/register 
+-browser browsername=chrome,maxInstances=3 
+-browser browsername=firefox,maxInstances=2 -browser browsername=Iexplore,maxInstances=1 -port 7777
